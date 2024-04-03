@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { createContextAPI } from "../App"
 
-function ValueSpaceCom() {
+function Lists() {
     const [textValue, setTextValue] = useContext(createContextAPI)
   return (
     <div className='containerBox'>
@@ -10,4 +10,4 @@ function ValueSpaceCom() {
   )
 }
 
-export default ValueSpaceCom
+export default Lists
